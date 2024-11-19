@@ -1,0 +1,7 @@
+Using device: cuda
+Epoch 1/5, Loss: 0.1234, Time: 28.16s
+Epoch 2/5, Loss: 0.0404, Time: 21.96s
+Epoch 3/5, Loss: 0.0277, Time: 21.98s
+Epoch 4/5, Loss: 0.0195, Time: 21.86s
+Epoch 5/5, Loss: 0.0189, Time: 22.03s
+Accuracy on test set: 98.76%
