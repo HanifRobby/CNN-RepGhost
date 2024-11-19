@@ -1,0 +1,7 @@
+Using device: cpu
+Epoch 1/5, Loss: 0.1312, Time: 162.14s
+Epoch 2/5, Loss: 0.0421, Time: 169.31s
+Epoch 3/5, Loss: 0.0292, Time: 162.51s
+Epoch 4/5, Loss: 0.0204, Time: 163.30s
+Epoch 5/5, Loss: 0.0186, Time: 164.56s
+Accuracy on test set: 98.81%
