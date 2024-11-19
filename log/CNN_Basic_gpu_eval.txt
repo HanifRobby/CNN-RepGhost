@@ -1,0 +1,30 @@
+Using device: cuda
+Total trainable parameters: 1199882
+Unsupported operator aten::max_pool2d encountered 1 time(s)
+Unsupported operator aten::log_softmax encountered 1 time(s)
+FLOPs: 11992448
+Epoch 1/5, Loss: 0.1298, Time: 17.95s
+Epoch 2/5, Loss: 0.0387, Time: 18.34s
+Epoch 3/5, Loss: 0.0233, Time: 18.00s
+Epoch 4/5, Loss: 0.0163, Time: 17.53s
+Epoch 5/5, Loss: 0.0099, Time: 17.86s
+Accuracy on test set: 99.03%
+Precision: 0.99, Recall: 0.99, F1-Score: 0.99
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9959    0.9888    0.9923       980
+           1     0.9956    0.9965    0.9960      1135
+           2     0.9855    0.9864    0.9860      1032
+           3     0.9911    0.9950    0.9931      1010
+           4     0.9908    0.9908    0.9908       982
+           5     0.9888    0.9888    0.9888       892
+           6     0.9896    0.9906    0.9901       958
+           7     0.9921    0.9825    0.9873      1028
+           8     0.9897    0.9908    0.9903       974
+           9     0.9833    0.9921    0.9877      1009
+
+    accuracy                         0.9903     10000
+   macro avg     0.9902    0.9902    0.9902     10000
+weighted avg     0.9903    0.9903    0.9903     10000
