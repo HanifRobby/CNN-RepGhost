@@ -1,0 +1,34 @@
+Using device: cuda
+Total trainable parameters: 1627210
+Unsupported operator aten::add_ encountered 6 time(s)
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::max_pool2d encountered 1 time(s)
+Unsupported operator aten::log_softmax encountered 1 time(s)
+The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+repghost1.fusion_conv, repghost2.fusion_conv
+FLOPs: 18089728
+Epoch 1/5, Loss: 0.1192, Time: 22.75s
+Epoch 2/5, Loss: 0.0408, Time: 22.30s
+Epoch 3/5, Loss: 0.0265, Time: 22.28s
+Epoch 4/5, Loss: 0.0215, Time: 22.96s
+Epoch 5/5, Loss: 0.0164, Time: 22.68s
+Accuracy on test set: 98.79%
+Precision: 0.99, Recall: 0.99, F1-Score: 0.99
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9918    0.9929    0.9924       980
+           1     0.9912    0.9974    0.9943      1135
+           2     0.9836    0.9893    0.9865      1032
+           3     0.9872    0.9960    0.9916      1010
+           4     0.9789    0.9898    0.9843       982
+           5     0.9726    0.9933    0.9828       892
+           6     0.9968    0.9749    0.9858       958
+           7     0.9922    0.9864    0.9893      1028
+           8     0.9908    0.9897    0.9902       974
+           9     0.9929    0.9683    0.9804      1009
+
+    accuracy                         0.9879     10000
+   macro avg     0.9878    0.9878    0.9878     10000
+weighted avg     0.9880    0.9879    0.9879     10000
